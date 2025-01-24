@@ -1,0 +1,14 @@
+firstName: Rudi
+lastName: Supratman
+hobbies:
+  - Gaming
+  - Football  
+address:
+  street: Jl. Raya
+  city: Jakarta
+  country: Indonesia
+wallet:
+  - type: cash
+    amount: 1000000 
+  - type: bank
+    amount: 500000

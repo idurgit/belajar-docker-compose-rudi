@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  mysql-example:
+    image: mysql:8.0.30
+    container_name: mysql-example
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=Password123
+      - MYSQL_DATABASE=new-siakad-db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=Password123
+      - lower_case_table_names=2
+
+    volumes:
+      - "/c/laragon/data/mysql-8:/var/lib/mysql"
+
